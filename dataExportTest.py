@@ -5,11 +5,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 import json
 import csv
-import re
-import os
-import time
-import codecs
-import traversalFiles
+from utils import traversalFiles
 import orderDataParse
 
 
